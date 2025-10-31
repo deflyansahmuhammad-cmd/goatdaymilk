@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goat Day Milk - Fresh Goat Milk Everyday</title>
+    
+    <!-- Link to our CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Link to Google Fonts for an elegant font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- Link to our JavaScript file. 'defer' makes it load after the HTML. -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Section: Contains the logo and navigation menu -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Goat Day Milk</a>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Our Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section: The first thing visitors see -->
+        <section class="hero">
+            <!-- **** NEW VIDEO ELEMENT **** -->
+            <video src="css/tinywow_Untitled design_85599099.mp4" autoplay loop muted playsinline class="hero-video"></video>
+            <div class="hero-content container">
+                <h1 class="hidden">Experience the Pure Delight of Goat Milk</h1>
+                <p class="hidden">Naturally easy to digest, full of nutrients, and delivered fresh from our farm to your family.</p>
+                <a href="#products" class="cta-button hidden">Discover Our Products</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="container">
+            <h2 class="hidden">From Our Pastures to Your Pantry</h2>
+            <p class="hidden">
+                Goat Day Milk was born from a passion for sustainable farming and a love for wholesome, natural food. Our happy goats graze on lush, green pastures, producing milk that is not only delicious but also packed with essential vitamins and minerals. We believe in tradition, quality, and the simple goodness of nature.
+            </p>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products">
+            <div class="container">
+                <h2 class="hidden">Our Fresh Offerings</h2>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card hidden">
+                        <!-- **** CHANGED LINE **** -->
+                        <img src="css/Generated Image October 30, 2025 - 7_21PM (2).jpeg" alt="Fresh Goat Milk Bottle">
+                        <h3>Goat Milk For Pets</h3>
+                        <p>Our signature product. Creamy, fresh, and perfect for drinking, cooking, or making cheese.</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="product-card hidden">
+                        <!-- **** CHANGED LINE **** -->
+                        <img src="css/goatmilk1.jpg" alt="Man with goat and milk bottle">
+                        <h3>Goat Milk Non Pasteurize Cold</h3>
+                        <p>Handcrafted in small batches, our goat cheese is tangy, smooth, and incredibly versatile.</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="product-card hidden">
+                        <!-- **** CHANGED LINE **** -->
+                        <img src="css/goat milk2 (1).jpeg" alt="Pouring fresh goat milk">
+                        <h3>Raw Goat Milk</h3>
+                        <p>A probiotic-rich yogurt that's gentle on the stomach and a delight for the taste buds.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2 class="hidden">Get In Touch</h2>
+            <p class="hidden">Have questions or want to place a bulk order? We'd love to hear from you!</p>
+            <form class="hidden">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+<a href="https://wa.me/6287777547220" class="whatsapp-fab" target="_blank" aria-label="Chat with us on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M19.05 4.94A9.99 9.99 0 0 0 12 2C6.48 2 2 6.48 2 12c0 1.74.45 3.39 1.23 4.84L2 22l5.16-1.22c1.45.78 3.1 1.22 4.84 1.22h.01c5.52 0 10-4.48 10-10c0-2.76-1.12-5.26-2.95-7.06zm-7.06 14.28c-1.46 0-2.83-.47-4-1.25l-.28-.17l-2.98.74l.76-2.92l-.19-.29c-.85-1.3-1.38-2.84-1.38-4.48c0-4.54 3.69-8.22 8.24-8.22c2.23 0 4.29.87 5.82 2.4c1.53 1.53 2.4 3.59 2.4 5.82c0 4.54-3.69 8.22-8.23 8.22zm4.53-6.23c-.26-.13-1.53-.76-1.76-.84c-.24-.08-.41-.13-.59.13c-.18.26-.67.84-.82 1.01c-.15.18-.3.19-.55.06c-.26-.13-1.08-.4-2.05-1.26c-.76-.66-1.27-1.47-1.42-1.72c-.15-.26-.02-.4.12-.53c.12-.12.26-.31.39-.47c.13-.16.18-.26.26-.44c.08-.18.04-.33-.02-.46c-.06-.13-.59-1.41-.8-1.93c-.21-.52-.43-.45-.59-.46c-.15-.01-.32-.01-.49-.01c-.17 0-.44.06-.67.31c-.23.26-.87.85-.87 2.07c0 1.22.89 2.4 1.01 2.56c.12.16 1.76 2.68 4.27 3.77c.6.26 1.06.41 1.42.52c.59.18 1.13.15 1.54.09c.45-.06 1.53-.62 1.74-1.22c.22-.59.22-1.1.15-1.22c-.07-.12-.24-.19-.5-.32z"/></svg>
+    </a>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Goat Day Milk. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
